@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/my-app/my-app'
+     git 'https://github.com/ayb112/my-app'
    }
    stage('Compile-Package'){
       // Get maven home path
